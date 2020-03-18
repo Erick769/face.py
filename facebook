@@ -1,0 +1,11 @@
+#facebook
+
+Usuario ={ "x" : "x" }
+def ConnectUser ():
+    user = input("email ou telefone ")
+    Password = input ("senha ")
+    if user in Usuario and Usuario[user] == Password:
+        print ("login com sucesso ")
+    else:
+        print ("usuario ou senha incorretos")
+ConnectUser()
